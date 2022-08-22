@@ -1,0 +1,52 @@
+.i-container{
+    display: flex;
+    height: 51rem;
+    padding-top: 0;
+    padding-right: 90px;
+    gap: 1rem;
+}
+
+.i-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.i-left>p{
+    margin-left:  180px;
+    font-size: 42.5px;
+}
+
+.i-right{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../images/Imagen1.png");
+    background-size: cover;
+    background-position-y: 100%;
+}
+
+.i-icons{
+    position: fixed;
+    right: 180px;
+    margin-top: 12rem;
+}
+
+.i-icon>i{
+    color: white;
+    font-size: 5em;
+    background-size: 10px;
+    border-radius: 20px;
+    
+}
+
+.i-icon>i:hover{
+    color: #333333;
+    cursor: pointer;
+    
+}
+
+p{
+    color: #333333;
+}
