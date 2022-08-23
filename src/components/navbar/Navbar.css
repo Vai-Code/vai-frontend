@@ -25,7 +25,7 @@ li{
 .n-left{
     flex: 2;
     align-items: center;
-    background-image: url("../../../images/logo.png");
+    background-image: url("../../images/logo.png");
     background-size: cover;
     background-size: 55%;
     align-content: flex-start;

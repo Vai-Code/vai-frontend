@@ -22,7 +22,7 @@
     flex: 1;
     justify-content: center;
     align-items: center;
-    background-image: url("../../../images/Imagen1.png");
+    background-image: url("../../images/Imagen1.png");
     background-size: cover;
     background-position-y: 100%;
 }
@@ -49,4 +49,10 @@
 
 p{
     color: #333333;
+}
+
+.i-historias{
+    border: 5px solid #2ca5ff;
+    border-radius: 30px;
+    padding: 5px;
 }

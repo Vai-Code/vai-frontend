@@ -2,13 +2,12 @@ import React from 'react'
 import "./Intro.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faInstagram, faTiktok, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
-import { Link } from 'react-router-dom';
 
 const Intro = () => {
   return (
     <div className='i-container' id='Intro'>
         <div className='i-left'>
-            <p>Somos una comunidad con un mundo lleno de historias.</p>
+            <p>Somos una comunidad con un mundo lleno de <span className='i-historias'>historias</span>.</p>
         </div>
         <div className='i-right'>
             <div className='i-icons'>
