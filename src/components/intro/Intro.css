@@ -2,7 +2,6 @@
     display: flex;
     height: 51rem;
     padding-top: 0;
-    padding-right: 90px;
     gap: 1rem;
 }
 
@@ -14,7 +13,7 @@
 }
 
 .i-left>p{
-    margin-left:  180px;
+    margin-left:  90px;
     font-size: 42.5px;
 }
 
@@ -27,22 +26,29 @@
     background-position-y: 100%;
 }
 
+.i-icon>i{
+    color: #333333;
+    font-size: 3.8em;
+    background-size: 10px;
+    right: 0px;
+
+}
+
 .i-icons{
     position: fixed;
-    right: 180px;
-    margin-top: 12rem;
+    right: 0;
+    width:55px;
+    margin-top: 14.5rem;
+    padding: 1rem;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
 }
 
-.i-icon>i{
-    color: white;
-    font-size: 5em;
-    background-size: 10px;
-    border-radius: 20px;
-    
-}
+
 
 .i-icon>i:hover{
-    color: #333333;
+    color: #2ca5ff;
     cursor: pointer;
     
 }
