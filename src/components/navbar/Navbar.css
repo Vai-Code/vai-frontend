@@ -23,31 +23,40 @@ li{
 }
 
 .n-left{
-    flex: 2;
-    align-items: center;
-    background-image: url("../../images/logo.png");
-    background-size: cover;
-    background-size: 55%;
-    align-content: flex-start;
-    background-repeat: no-repeat;
-    background-position-y: center;
+    width: 20%;
+    float: left;
+    position: relative;
+}
+
+.n-left img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: multiply;
 }
 
 .n-right{
+    width: 80%;
     display: flex;
-    flex: 5;
     align-items: center;
     justify-content: center;
 }
 
 .n-list{
     flex: 10;
+    
 }
 
 .n-list>ul{
     display: flex;
-    justify-content: space-between;
+    gap: 4rem;
     list-style-type: none;
+    justify-content: right;
 }
 
 .n-list>ul>:hover{
