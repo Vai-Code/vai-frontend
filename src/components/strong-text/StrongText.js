@@ -3,9 +3,9 @@ import React from 'react'
 const StrongText = (props) => {
 
   const myStyle = {
-    color: props.color,
-    backgroundColor: props.backgroundColor,
+    color: "#333333",
     width: "fit-content",
+    border: "5px solid white",
     borderRadius: "30px",
     padding: "5px"
   }

@@ -33,6 +33,8 @@ export const styles = {
         position: 'fixed',
         bottom: '280px',
         right: '90px',
+        bottom: '200px',
+        right: '180px',
         // Size
         width: '420px',
         height: '530px',

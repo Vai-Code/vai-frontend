@@ -4,7 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Intro from './components/intro/Intro';
 import QuienesSomos from './components/quienes_somos/QuienesSomos';
 import Footer from './components/footer/Footer';
-import BASS from "./components/baas/BASS";
+import BASS from "./components/baas/BASS"
 import Chat from './components/chat/Chat';
 
 

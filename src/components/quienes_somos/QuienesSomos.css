@@ -29,6 +29,7 @@
     background-image: url("../../images/celular.png");
     background-size: cover;
     background-position-y: center;
+    mix-blend-mode: multiply;
 
     
 }
