@@ -40,6 +40,10 @@ li{
     mix-blend-mode: multiply;
 }
 
+.n-left img:hover{
+    cursor: pointer;
+}
+
 .n-right{
     width: 80%;
     display: flex;
@@ -59,7 +63,7 @@ li{
     justify-content: right;
 }
 
-.n-list>ul>:hover{
+.n-list-elements-item:hover{
     cursor: pointer;
     color: #2ca5ff;
 }

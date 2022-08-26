@@ -5,7 +5,7 @@ import StrongText from '../strong-text/StrongText'
 
 const BASS = () => {
   return (
-    <div className='b-container'>
+    <div className='b-container' id='BASS'>
         <div className='b-container-left'>
           <p>Modelo BASS</p>
           <div className="b-container-left-items">
