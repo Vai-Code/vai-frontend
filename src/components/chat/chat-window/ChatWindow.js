@@ -10,8 +10,6 @@ const ChatWindow = (props) => {
 
     const sendEmail = (e) => {
       e.preventDefault();
-
-      Window.abrirModal();
   
       emailjs.sendForm('service_jdi7qfy', 'template_i0249tl', form.current, 'aHWaiOv2NEANPwN7i')
         .then((result) => {
