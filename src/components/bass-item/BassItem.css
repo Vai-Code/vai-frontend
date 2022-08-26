@@ -1,0 +1,22 @@
+.b-i-container{
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 90px;
+    font-size: 42.5px;
+}
+
+.b-i-container-letter{
+    background-color: #2ca5ff;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 42.5px;
+    color: white;
+}

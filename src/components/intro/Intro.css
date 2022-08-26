@@ -27,7 +27,7 @@
 }
 
 .i-icon>i{
-    color: #333333;
+    color: white;
     font-size: 3.8em;
     background-size: 10px;
     right: 0px;
@@ -43,13 +43,14 @@
     border-radius: 25px;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    margin-right: 90px;
+    align-items: center;
+    position: flex;
 }
 
-
-
 .i-icon>i:hover{
-    color: #505050;
-    color: #2ca5ff;
+    color: #efefef;
     cursor: pointer;
 }
 

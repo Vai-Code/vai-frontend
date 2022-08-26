@@ -1,6 +1,6 @@
 import React from 'react'
 import "./QuienesSomos.css"
-import Celular from "../../images/celular.png"
+import StrongText from "../strong-text/StrongText"
 
 const QuienesSomos = () => {
   return (
@@ -17,9 +17,9 @@ const QuienesSomos = () => {
         <div className='q-right-text'>
           <p className='q-right-text-title'>Una solución práctica, segura, asequible y accesible</p>
           <p className='q-right-text-paragraph'>
-            <div className='first-p'>Somos una plataforma de movilidad digital que implementa un nuevo método de <span className='text-strong'>carpooling privado</span>  y exclusivo para cada comunidad.</div>
+            <div className='first-p'>Somos una plataforma de movilidad digital que implementa un nuevo método de <StrongText text="carpooling privado" color="white" backgroundColor="#333333"/>  y exclusivo para cada comunidad.</div>
             <br></br>
-            <div>Estamos enfocados en  <span className='text-strong'>aumentar el  bienestar</span>  de las comunidades universitarias y todos sus integrantes al mejorar el actual sistema de movilidad en cuanto a calidad y disponibilidad.</div></p>
+            <div className='second-p'>Estamos enfocados en  <StrongText text="aumentar el bienestar" color="white" backgroundColor="#333333"/>  de las comunidades universitarias y todos sus integrantes al mejorar el actual sistema de movilidad en cuanto a calidad y disponibilidad.</div></p>
         </div>
       </div>
     </div>
