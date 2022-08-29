@@ -1,42 +1,60 @@
 .q-container{
     display: flex;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 0px;
+    margin-right: 0px;
     height: 51rem;
+    gap: 1rem;
 }
 
 .q-left{
-    width: 50%;
-    background-color: white;
+    width: 52.55%;
     background-size: cover;
     justify-content: center;
 
 }
 
+.q-title{
+    margin-left: 90px;
+}
+
+.q-left-up{
+    height: 8%;
+}
+
+.q-left-down{
+
+    height: 92%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../images/celular.png");
+    background-size: cover;
+    background-position-y: center;
+    mix-blend-mode: multiply;
+
+    
+}
+
 .q-right{
-    width: 50%;
+    width: 47.45%;
     align-items: center;
     justify-content: center;
     display: flex;
     align-content: center;
+    margin-right: 90px;
 }
 
 .q-title{
     font-size: 42.5px;
-    margin-left: 90px;
     color: #333333;
 }
 
-.q-left-image{
-    max-width: 100%;
-    height: auto;
-}
 
 .q-right-text{
     border: 5px solid #2ca5ff;
     border-radius: 30px;
     padding: 1rem;
 }
+
 
 .q-right-text-paragraph{
     gap: 2rem;
@@ -53,12 +71,9 @@
 }
 
 .text-strong{
-
     background-color: #333333;
     width: fit-content;
     color: white;
     border-radius: 30px;
     padding: 5px;
 }
-
-.first-p{}

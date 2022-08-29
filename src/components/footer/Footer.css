@@ -1,0 +1,39 @@
+.f-container{
+    height: 5;
+    background-color: #333333;
+
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.f-icons{
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.f-icon{
+    color: white;
+    font-size: 2em;
+    background-size: 10px;
+    right: 0px;
+
+}
+
+.f-icon:hover{
+    color: #2ca5ff;
+    font-size: 2em;
+    background-size: 10px;
+    right: 0px;
+
+}
+
+.f-text{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}

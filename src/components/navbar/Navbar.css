@@ -7,6 +7,7 @@ li a{
 .n-container{
     position: fixed;
     width: 100%;
+    z-index: 100
 }
 
 .n-wrapper{
@@ -30,26 +31,48 @@ li a{
 }
 .n-left .burger{
     display: none;
+    width: 20%;
+    float: left;
+    position: relative;
+}
+
+.n-left img{
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: multiply;
+}
+
+.n-left img:hover{
+    cursor: pointer;
 }
 
 .n-right{
+    width: 80%;
     display: flex;
-    flex: 5;
     align-items: center;
     justify-content: center;
 }
 
 .n-list{
     flex: 10;
+    
 }
 
 .n-list>ul{
     display: flex;
-    justify-content: space-between;
+    gap: 4rem;
     list-style-type: none;
+    justify-content: right;
 }
 
-.n-list>ul>li>a:hover{
+.n-list>ul>li>a:hover,
+.n-list-elements-item:hover{
     cursor: pointer;
     color: #2ca5ff;
 }
