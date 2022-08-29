@@ -1,21 +1,27 @@
 import React from 'react'
 import "./Navbar.css"
+import { MenuItems } from './MenuItems'
 
 const Navbar = () => {
   return (
     <div className='n-container'>
       <div className='n-wrapper'>
         <div className='n-left'>
-        <div className='n-logo'></div>
+          <span className="burger">X</span>
+          <div className='n-logo'></div>
         </div>
         <div className='n-right'>
           <div className='n-list'>
             <ul>
-              <li>¿Quiénes somos?</li>
-              <li> Únete</li>
-              <li> Beneficios </li>
-              <li> Modelo BASS</li>
-              <li>Contáctanos</li>
+            {MenuItems.map((item, index) => {
+              return (
+                <li key={index}>
+                  <a className={item.cName} href={item.url}>
+                    {item.Title}
+                  </a>
+                </li>
+              );
+            })}
             </ul>
           </div>
         </div>
