@@ -5,7 +5,7 @@
     gap: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-left: 90px;
+    margin-left:30px;
     font-size: 42.5px;
 }
 
@@ -19,4 +19,13 @@
     display: flex;
     font-size: 42.5px;
     color: white;
+}
+.b-i-container-text{
+    width: 80%;
+}
+@media screen and (max-width: 768px){
+    .b-i-container{
+        margin-left: 30px;
+    }
+    
 }

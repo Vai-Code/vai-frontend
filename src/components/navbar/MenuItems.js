@@ -3,27 +3,17 @@ import React from 'react';
 export const MenuItems = [
   {
     Title: "¿Quiénes somos?",
-    url: "#",
-    cName: "nav-links"
-  },
-  {
-    Title: "Únete",
-    url: "#",
+    url: "QuienesSOmos",
     cName: "nav-links"
   },
   {
     Title: "Beneficios",
-    url: "#",
+    url: "Beneficios",
     cName: "nav-links"
   },
   {
     Title: "Modelo BASS",
-    url: "#",
+    url: "BASS",
     cName: "nav-links"
-  },
-  {
-    Title: "Contáctanos",
-    url: "#",
-    cName: "nav-links-mobile"
   }
 ];

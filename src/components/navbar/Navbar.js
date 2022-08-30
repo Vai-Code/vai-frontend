@@ -3,14 +3,27 @@ import "./Navbar.css"
 import { MenuItems } from './MenuItems'
 import Logo from "../../images/logo.png"
 import { Link } from 'react-scroll'
+import { click } from '@testing-library/user-event/dist/click'
 
 const Navbar = () => {
+  let togglear = () => {
+    //const burger = document.getElementById('burger');
+    const navb = document.getElementById('wrapper');
+    navb.classList.toggle('expand')
+
+  }
   return (
     <div className='n-container'>
-      <div className='n-wrapper'>
+      <div className='n-wrapper' id='wrapper'>
         <div className='n-left'>
-          <span className="burger">X</span>
-          <div className='n-logo'></div>
+        <label for="check">
+          <input onClick={togglear}  type="checkbox" id="check"/> 
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+          <Link to="Intro" spy={true} smooth={true} offset={-160} duration={700}><img className="n-logo" src={Logo}></img></Link>
+          <div className=''></div>
         </div>
         <div className='n-right'>
           <div className='n-list'>
@@ -18,26 +31,17 @@ const Navbar = () => {
             {MenuItems.map((item, index) => {
               return (
                 <li key={index}>
-                  <a className={item.cName} href={item.url}>
-                    {item.Title}
-                  </a>
+                  <Link className={item.cName} to={item.url} spy={true} smooth={true} offset={-160} duration={700}>{item.Title}</Link>
+                  
                 </li>
               );
             })}
             </ul>
-        <Link to="Intro" spy={true} smooth={true} offset={-160} duration={700}><img src={Logo}></img></Link>
-        </div>
-        <div className='n-right'>
-          <div className='n-list'>
-            <ul className='n-list-elements'>
-              <Link to="QuienesSomos" spy={true} smooth={true} offset={-160} duration={700}><li className='n-list-elements-item'>¿Quiénes somos?</li></Link>
-              <Link to="/" spy={true} smooth={true} offset={50} duration={700}><li className='n-list-elements-item'> Beneficios </li></Link>
-              <Link to="BASS" spy={true} smooth={true} offset={-160} duration={700}><li className='n-list-elements-item'> Modelo BASS</li></Link>
-            </ul>
           </div>
+        
         </div>
+        
       </div>
-    </div>
     </div>
   )
 }

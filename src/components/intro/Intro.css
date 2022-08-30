@@ -23,7 +23,7 @@
     align-items: center;
     background-image: url("../../images/Imagen1.png");
     background-size: cover;
-    background-position-y: 100%;
+    background-position: center;
 }
 
 .i-icon>i{
@@ -62,4 +62,19 @@ p{
     border: 5px solid #2ca5ff;
     border-radius: 30px;
     padding: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .i-container{
+        padding-top: 100px;
+        flex-direction: column;
+        height: calc(100vh - 100px);
+        width: 100%;
+    }
+    .i-right{
+        background-position: bottom;
+    }
+    .i-icons{
+        display: none;
+    }
 }

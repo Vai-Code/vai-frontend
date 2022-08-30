@@ -5,9 +5,10 @@ import StrongText from '../strong-text/StrongText'
 
 const BASS = () => {
   return (
-    <div className='b-container' id='BASS'>
-        <div className='b-container-left'>
-          <p>Modelo BASS</p>
+    <div className='' id='BASS'>
+      <div className='b-title'>Modelo BASS</div>
+      <div className='b-container'>
+      <div className='b-container-left'>
           <div className="b-container-left-items">
             <BassItem letter = "B" text = "Bienestar en la comunidad"/>
             <BassItem letter = "A" text = "Accesibilidad e Inclusividad"/>
@@ -17,11 +18,12 @@ const BASS = () => {
         </div>
         <div className='b-container-right'>
           <div className='b-container-right-content'>
-            <p>
-              Asegurar y fomentar el <StrongText text="bienestar" color="#333333" backgroundColor="white"/> y los <StrongText text="espacios seguros" color="white" backgroundColor="#333333"/> en las comunidades
-            </p>
+            <div className='text'>
+              Asegurar y fomentar el <span>bienestar</span> y los <span>espacios seguros</span> en las comunidades
+            </div>
           </div>
         </div>
+      </div>
     </div>
   )
 }

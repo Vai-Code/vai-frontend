@@ -1,6 +1,9 @@
 .b-container{
-    height: 51rem;
+    height: 40rem;
     display: flex;
+    margin: 30px;
+    border-radius: 50px;
+    overflow: hidden;
 }
 
 .b-container-left{
@@ -29,6 +32,12 @@
     right: 0;
     margin: auto;
 }
+.b-title{
+    width: 90vw;
+    text-align: end;
+    color: #333333;
+    font-size: 30px;
+}
 
 .b-container-right{
     background-color: #2ca5ff;
@@ -48,7 +57,37 @@
     text-align: justify;
 }
 
-.b-container-right-content p{
+.b-container-right-content .text{
     margin-right: 90px;
     margin-left: 30px;
+    font-size: 30px;
+}
+.b-container-right-content span{
+    border: white 2px solid;
+    border-radius: 50px;
+    padding: 1px 10px;
+}
+
+@media screen and (max-width: 768px){
+    .b-container{
+        flex-direction: column;
+        height: auto;
+    }   
+    .b-container-left, .b-container-right{
+        width: 100%;
+        height: auto;
+    }
+    .b-container-right{
+        letter-spacing: normal;
+    }
+    .b-container-left-items, .b-container-right-content{
+        position: inherit;
+    }
+    .b-container-right-content .text{
+        font-size: 30px;
+        margin: 60px 60px;
+        text-align: center;
+    }
+    
+
 }
