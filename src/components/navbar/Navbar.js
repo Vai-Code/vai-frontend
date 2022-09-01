@@ -10,20 +10,23 @@ const Navbar = () => {
     //const burger = document.getElementById('burger');
     const navb = document.getElementById('wrapper');
     navb.classList.toggle('expand')
-
+  }
+  let clickLink = () => {
+    //const burger = document.getElementById('burger');
+    const navb = document.getElementById('wrapper');
+    navb.classList.remove('expand')
   }
   return (
     <div className='n-container'>
       <div className='n-wrapper' id='wrapper'>
         <div className='n-left'>
-        <label for="check">
+        <label htmlFor="check">
           <input onClick={togglear}  type="checkbox" id="check"/> 
           <span></span>
           <span></span>
           <span></span>
         </label>
           <Link to="Intro" spy={true} smooth={true} offset={-160} duration={700}><img className="n-logo" src={Logo}></img></Link>
-          <div className=''></div>
         </div>
         <div className='n-right'>
           <div className='n-list'>
@@ -31,7 +34,7 @@ const Navbar = () => {
             {MenuItems.map((item, index) => {
               return (
                 <li key={index}>
-                  <Link className={item.cName} to={item.url} spy={true} smooth={true} offset={-160} duration={700}>{item.Title}</Link>
+                  <Link onClick={clickLink} className={item.cName} to={item.url} spy={true} smooth={true} offset={-160} duration={700}>{item.Title}</Link>
                   
                 </li>
               );

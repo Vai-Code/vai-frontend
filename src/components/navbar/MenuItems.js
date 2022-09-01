@@ -3,7 +3,7 @@ import React from 'react';
 export const MenuItems = [
   {
     Title: "¿Quiénes somos?",
-    url: "QuienesSOmos",
+    url: "QuienesSomos",
     cName: "nav-links"
   },
   {

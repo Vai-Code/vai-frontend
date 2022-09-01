@@ -6,6 +6,7 @@ import QuienesSomos from './components/quienes_somos/QuienesSomos';
 import Footer from './components/footer/Footer';
 import BASS from "./components/baas/BASS"
 import Chat from './components/chat/Chat';
+import Beneficios from './components/beneficios/Beneficios';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Intro/>
       <QuienesSomos/>
+      <Beneficios/>
       <BASS/>
       <Footer/>
       <Chat/>

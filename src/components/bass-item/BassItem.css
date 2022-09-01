@@ -27,5 +27,8 @@
     .b-i-container{
         margin-left: 30px;
     }
+    .b-i-container-text{
+        font-size: 28px;
+    }
     
 }
