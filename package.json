@@ -1,5 +1,5 @@
 {
-  "homepage": "http://sfrancop.github.io/Vai-Code/vai-frontend",
+  "homepage": "http://sfrancop.github.io/vai-frontend",
   "name": "vai",
   "version": "0.1.0",
   "private": true,
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeply": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
