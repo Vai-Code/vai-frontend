@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer';
 import BASS from "./components/baas/BASS"
 import Chat from './components/chat/Chat';
 import Beneficios from './components/beneficios/Beneficios';
+import Testimonios from './components/testimonios/Testimonios';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <QuienesSomos/>
       <Beneficios/>
       <BASS/>
+      <Testimonios/>
       <Footer/>
       <Chat/>
     </div>

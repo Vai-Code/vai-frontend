@@ -1,0 +1,119 @@
+$azul: #2ca5ff;
+$gris: rgb(239,239,238);
+$grisc:rgb(225, 225, 225);
+.testimonios{
+    .b-azul{
+        background-color: $azul;
+        height: 60vh;
+    }
+    .t-contenedor{
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+        margin: 60px 30px;
+    }
+    .tarjetas{
+        border-top: 3px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10vh 20px;
+        height: auto;
+        .tarjeta{
+            border-radius: 30px;
+            background-color: $gris;
+            width: 24%;
+            padding: 10px 25px;
+            display: flex;
+            flex-direction: column;
+            .top{
+                display: flex;
+                justify-content: space-evenly;
+                height: 50%;
+                .numero{
+                    background-color: $azul;
+                    color: white;
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 40px;
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
+                    font-size: 40px;
+                }
+                .mini{
+                    font-size: 25px;
+                }
+                .negritas{
+                    font-weight: bold;
+                    font-size: 25px;
+                    width: 80px;
+                    line-height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .bottom{
+                height: 50%;
+                .negritas{
+                    font-weight: bold;
+                    font-size: 25px;
+                }
+                .negrita2{
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+                .azul{
+                    color: $azul;
+                }
+            }
+            a{
+                color: $grisc;
+                max-width: 400px;
+                font-size: 10px;
+                line-height: 10px;
+                text-decoration: none;
+            }
+        }
+    }
+    .bogota{
+        width: 100%;
+        padding: 10px 0;
+        span{
+            border: $azul 3px solid;
+            padding: 1px 8px;
+            border-radius: 20px;
+        }
+    }
+    .pie, .pie2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .pie2{
+        justify-content: end !important;
+    }
+    .logo{
+        width: 120px;
+        img{
+            width: 100%;
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .testimonios{
+        .tarjetas{
+            padding: 5vh 20px;
+            .tarjeta{
+                width: 40%;
+                margin-bottom: 10px;
+            }
+            
+        }
+    }
+}
