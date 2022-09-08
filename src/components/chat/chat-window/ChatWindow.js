@@ -36,7 +36,12 @@ const ChatWindow = (props) => {
                         <div className="c-form-form-university"><input type="text" name="university" placeholder="Escribe tu universidad" required/></div>
                         <div className="c-form-form-mail"><input type="email" name="mail" placeholder="Escribe tu correo" required/></div>
                         <div className="c-form-form-message"><TextArea name="message" placeholder="Escribe tu mensaje" required></TextArea> </div>
-                        <div><input className="c-form-form-submit" type="submit" value="Enviar"/></div>
+                        <div>
+                            <button className='c-form-form-submit'>
+                                <span className='text_1'>Enviar</span>
+                                <span className='text_2'>Su mensaje fue enviado</span>
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
