@@ -28,10 +28,17 @@
 }
 @media screen and (max-width: 768px){
     .B-container{
+        height: auto;
         .contenedor{
-            height: 600px;
+            height: 500px;
+            .texto{
+                font-size: 22px;
+            }
             .left{
                 width: 100%;
+            }
+            .texto{
+                margin-left: 20px !important;
             }
         }
     }

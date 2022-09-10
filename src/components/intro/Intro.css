@@ -65,6 +65,11 @@ p{
 }
 
 @media screen and (max-width: 768px){
+    .i-left>p{
+        margin-left:  20px;
+        font-size: 32.5px;
+        text-align: center;
+    }
     .i-container{
         padding-top: 100px;
         flex-direction: column;

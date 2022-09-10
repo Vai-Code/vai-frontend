@@ -4,17 +4,17 @@ label{
 }
   
   label span{
-    background: black;
+    background: #2ca5ff;
     border-radius:10px;
     height:7px;
-    margin: 7px 0;
+    margin: 3px 0;
     transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
   
   }
   
   
   span:nth-of-type(1){
-    width:50%;
+    width:100%;
     
   }
   
@@ -24,7 +24,7 @@ label{
   
   
   span:nth-of-type(3){
-    width:75%;
+    width:100%;
    
   }
   
@@ -36,7 +36,8 @@ label{
   
   input[type="checkbox"]:checked ~ span:nth-of-type(1){
     transform-origin:bottom;
-    transform:rotatez(45deg) translate(8px,0px)
+    width: 50%;
+    transform:rotatez(45deg) translate(4px,-2px);
   }
   
   
@@ -51,7 +52,7 @@ label{
     
     transform-origin:bottom;
     width:50%;
-    transform: translate(30px,-11px) rotatez(45deg);
+    transform: translate(22px,-7px) rotatez(45deg);
   
   }
 
@@ -160,7 +161,7 @@ li a{
         border-radius: 0;
         display: block;
         background-color: white;
-        height: 100px;
+        height: 80px;
         justify-content: start;
         overflow: hidden;
         transition: linear .3s;
@@ -178,7 +179,10 @@ li a{
         display: block;
     }
     .n-left a{
-        width: 250px;
+        width: 180px;
+    }
+    .n-left a img{
+        height: 50px;
     }
     .n-logo{
         height: 70px;
