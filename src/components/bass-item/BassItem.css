@@ -1,6 +1,7 @@
 .b-i-container{
     display: flex;
     height: fit-content;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
@@ -21,7 +22,7 @@
     color: white;
 }
 .b-i-container-text{
-    width: 80%;
+    width: 60%;
 }
 @media screen and (max-width: 768px){
     .b-i-container{

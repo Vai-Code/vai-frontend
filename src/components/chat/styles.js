@@ -8,10 +8,10 @@ export const styles = {
         backgroundImage: `url(https://static.vecteezy.com/system/resources/previews/009/971/211/large_2x/chat-bot-icon-isolated-contour-symbol-illustration-vector.jpg)`, 
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        backgroundSize: '120px',
+        backgroundSize: '100px',
         // Size
-        width: '120px',
-        height: '120px',
+        width: '90px',
+        height: '90px',
     },
     avatarHello: { 
         // Position
@@ -27,23 +27,19 @@ export const styles = {
         // Color
         backgroundColor: '#2ca5ff',
         color: 'white',
+        fontSize: '16px'
     },
     supportWindow: {
         // Position
         position: 'fixed',
-        bottom: '280px',
-        right: '90px',
-        bottom: '200px',
-        right: '180px',
+        bottom: '100px',
+        right: '80px',
         // Size
-        width: '420px',
-        height: '530px',
-        maxWidth: 'calc(100% - 48px)',
-        maxHeight: 'calc(100% - 48px)',
+        width: '320px',
+        height: '400px',
         backgroundColor: 'white',
         // Border
         borderRadius: '30px',
-        border: `2px solid #2ca5ff`,
         overflow: 'hidden',
         // Shadow
         boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.33)',

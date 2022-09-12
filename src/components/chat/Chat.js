@@ -26,11 +26,11 @@ const Chat = () => {
             <ChatWindow visible={visible} />
 
             <Avatar 
-                onClick={() => setVisible(true)}
+                onClick={() => setVisible(!visible)}
                 style={{
                     position: 'fixed',
-                    bottom: '140px',
-                    right: '90px',
+                    bottom: '20px',
+                    right: '20px',
                 }}
             />
         </div>

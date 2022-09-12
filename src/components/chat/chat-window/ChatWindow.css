@@ -10,19 +10,18 @@
 
 .c-banner img{
     max-width: 50%;
-    max-height: 50%;
+
     width: auto;
     height: auto;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    mix-blend-mode: multiply;
 }
 
 .c-form{
     background-color: #2ca5ff;
-    height: 85%;
+    height: 350px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -30,42 +29,39 @@
 }
 
 .c-form-form{
-    width: 80%;
+    width: 90%;
+    height: 100%;
     margin: 0 auto;
 }
 
 input{
     width: 100%;
-    height: 60px;
+    height: 40px;
     background-color: white;
     border: 0;
-    border-radius: 20px;
-    padding: 12px 20px;
+    border-radius: 10px;
+    padding: 5px 20px;
     margin: 8px 0;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;;
-    text-align: center;
+    font-family: 'Poppins', sans-serif;
     outline: none;
     color: #333333;
-    font-size: 16px;
+    font-size: 14px;
   }
 
 TextArea{
     width: 100%;
-    height: 60px;
+    height: 80px;
     background-color: white;
     border: 0;
-    border-radius: 20px;
-    padding: 12px 20px;
+    border-radius: 10px;
+    padding: 5px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;;
-    text-align: center;
+    font-family: 'Poppins', sans-serif;
     outline: none;
     color: #333333;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 input:hover{
@@ -82,4 +78,17 @@ input:hover{
 
 .c-form-form-submit:hover{
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .formulario-chat{
+        width: 250px !important;
+        height: 400px!important;
+        bottom: 150px !important;
+        right: 30px !important;
+    }
+    .c-form input{
+        height:40px;
+    }
+
 }

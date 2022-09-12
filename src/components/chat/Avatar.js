@@ -7,6 +7,7 @@ const Avatar = (props) => {
     return (
         <div style={props.style}>
             <div 
+            
                 className='transition-3'
                 style={{
                     ...styles.avatarHello,

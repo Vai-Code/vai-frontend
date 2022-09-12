@@ -64,7 +64,7 @@ export default function Testimonios() {
                             Sentí mucho miedo pero no fuí capaz de decir nada, 
                             al final, el señor era un <br></br> <span>completo desconocido</span>"
                         </div>
-                        <div className='auto'>- Mariana</div>
+                        <div className='auto'>- Nicolás</div>
                     </div>
                     <div className='pie2'>
                         <div className='logo'>
@@ -90,7 +90,7 @@ export default function Testimonios() {
                             Afortunadamente, llegué bien, pero durante el transcurso sentí que 
                             mi vida <br></br> <span>estaba en riesgo</span>"
                         </div>
-                        <div className='auto'>- Mariana</div>
+                        <div className='auto'>- Juliana</div>
                     </div>
                     <div className='pie3'>
                         <div className='logo'>
@@ -109,7 +109,7 @@ export default function Testimonios() {
                 <div className='separador'>
                     <div className='testimonio'>
                         <div className='texto'>
-                            "Cada mañana me subo al transmilenio, me <span>siento insegura. </span>
+                            "Cada mañana me subo al transmilenio, me <br></br> <span>siento insegura. </span>
                             Ser mujer y movilizarse en el transportepublico supone un riesgo para uno.
                             Más de una vez, en medio de la congestión y colapso, 
                             he visto como han intentado "manosear" a otras mujeres... es <br></br> <span>realmente horrible</span>"

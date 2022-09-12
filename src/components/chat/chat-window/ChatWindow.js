@@ -21,7 +21,7 @@ const ChatWindow = (props) => {
     return (
         <div>
             <div 
-                className='transition-3 c-container'
+                className='transition-3 c-container formulario-chat'
                 style={{
                     ...styles.supportWindow,
                     ...{ opacity: props.visible ? '1' : '0' }
