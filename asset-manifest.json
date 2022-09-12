@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vai-frontend/static/css/main.b7113f10.css",
-    "main.js": "/vai-frontend/static/js/main.d6ab3215.js",
+    "main.css": "/vai-frontend/static/css/main.0ebb44b3.css",
+    "main.js": "/vai-frontend/static/js/main.f1a228a8.js",
     "static/js/787.5450d1b0.chunk.js": "/vai-frontend/static/js/787.5450d1b0.chunk.js",
     "static/media/background-beneficios.png": "/vai-frontend/static/media/background-beneficios.8c78ee87821f8b310fb5.png",
     "static/media/Imagen1.png": "/vai-frontend/static/media/Imagen1.40f935184d9dd7030647.png",
@@ -9,12 +9,12 @@
     "static/media/celular.png": "/vai-frontend/static/media/celular.a98c3a8b8dcb91906bc9.png",
     "static/media/logo.png": "/vai-frontend/static/media/logo.6b82a310d85414440b44.png",
     "index.html": "/vai-frontend/index.html",
-    "main.b7113f10.css.map": "/vai-frontend/static/css/main.b7113f10.css.map",
-    "main.d6ab3215.js.map": "/vai-frontend/static/js/main.d6ab3215.js.map",
+    "main.0ebb44b3.css.map": "/vai-frontend/static/css/main.0ebb44b3.css.map",
+    "main.f1a228a8.js.map": "/vai-frontend/static/js/main.f1a228a8.js.map",
     "787.5450d1b0.chunk.js.map": "/vai-frontend/static/js/787.5450d1b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7113f10.css",
-    "static/js/main.d6ab3215.js"
+    "static/css/main.0ebb44b3.css",
+    "static/js/main.f1a228a8.js"
   ]
 }
